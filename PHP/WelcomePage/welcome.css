@@ -1,0 +1,59 @@
+
+html {
+	margin:0;
+	height:100%;
+    position: static;
+}
+
+body{
+    position: static;	
+    background-size: cover
+}
+
+#wrapper {
+    position:absolute;
+    top: 60%;
+    left: 38%;
+}
+#wrapper1 {
+    position:absolute;
+    top: 60%;
+    left: 50%;
+}
+
+#wrapper2 {
+    position:absolute;
+    top: 70%;
+    left: 38%;
+}
+
+#wrapperch {
+    position:absolute;
+    top: 40%;
+    left: 45%;
+}
+
+h1{
+    text-align: center;
+    position:relative;
+    top: 30%;
+    font-size:55px;
+}
+
+mark {
+    background-color: #5cc4b9 ;
+    color: black;
+}
+#popup {
+    width:160px;
+    height:90px;
+    padding:20px;
+    background-color:#f0513a;    
+    position:absolute;
+    top:17%;
+    left:42%;
+    display:none;
+    z-index: 1;
+    outline: 9999px solid rgba(0,0,0,0.6);
+    /*box-shadow: 10px 10px 5px grey;*/
+}
